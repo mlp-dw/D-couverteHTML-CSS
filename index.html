@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ML">
+    <meta name="description" content="Première semaine de formation : je teste plusieurs choses afin 
+    de bidouiller un site sur la technologie et la science.">
+    <meta name="keywords" content="actualité,science,technologie">
+    <link rel="shortcut icon" href="IMAGES/cellule.png">
+    <meta property="og:url"                content="http://Actualités.com" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Actualités" />
+    <meta property="og:description"        content="Tout sur l'actualité de la tech et des sciences." />
+    <meta property="og:image"              content="IMAGES/cellule.png" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@actus&t" />
+    <meta name="twitter:creator" content="@mlp" />
+    <title>Actualités</title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<body>
+    <header>
+        <h1>L'Actu Science et Technologie</h1>
+        <img src="data:image/png;base64,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"
+        alt="visage de robot">
+        <nav>
+            <button id="close" href="#">×</button>
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="">Science</a></li>
+                <li><a href="">Tech</a></li>
+            </ul>
+        </nav>
+        <button id="open" href="#"><img src="IMAGES/menu.png" alt="menu hamburger"></button>
+    </header>
+
+    <main>
+
+        <section>
+            <a href=""><h2 >Science</h2></a>
+            <div class="container" >
+                <article itemscope itemtype="http://schema.org/Article" class="spaceX">
+                    <h4 itemprop="name">SpaceX prévoit le premier décollage de la fusée Falcon Heavy pour le 
+                        6 février
+                    </h4>
+                    <div class="container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Falcon_Heavy_cropped.jpg/280px-Falcon_Heavy_cropped.jpg"
+                        alt="une fusée" itemprop="photo">
+                        <div class="text">
+                            <p itemprop="text">Le vol inaugural du lanceur lourd Falcon Heavy, prévu initialement pour 
+                                l'automne, se déroulera le mardi 6 février, annonce SpaceX. Fin janvier, 
+                                l'entreprise américaine a effectué avec succès un test de mise à feu statique.
+                                Dans le domaine de l’astronautique, il faut parfois composer avec des 
+                                impondérables. Elon Musk s’en est rendu compte avec Falcon Heavy. Sa société 
+                                spécialisée dans le vol spatial, SpaceX, devait initialement procéder au vol 
+                                inaugural de sa toute première fusée lourde au cours de l’automne 2017, en 
+                                novembre. Mais le 1er décembre est arrivé et aucun décollage n’a eu lieu.
+                            </p>
+                            <div class="move">
+                                <a href="articles/science/art1/scienceart1.html">
+                                    <span>Pour en savoir plus...</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="acoté">
+                    <aside class="aside1">
+                        <a href="articles/science/art2/scienceart2.html">
+                            <h4>Deux singes clonés sont nés en Chine : une prouesse scientifique qui pose 
+                                des questions éthiques
+                            </h4>
+                        </a>
+                    </aside>
+                    <aside class="aside2">
+                        <a href="articles/science/art3/scienceart3.html">
+                            <h4>
+                                Facebook fait appel à un autre Français pour diriger ses travaux en 
+                                intelligence artificielle
+                            </h4>
+                        </a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <a href=""><h2>Tech</h2></a>
+            <div class="container2">
+                <article class="telecom">
+                    <h4>Bouygues Telecom affirme couvrir 95 % de la population en 4G</h4>
+                    <div class="container2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bouygues_Telecom_%28alt_logo%29.svg/505px-Bouygues_Telecom_%28alt_logo%29.svg.png"
+                        alt="logo bouygues télécom">
+                        <div class="opérateur">
+                            <p>L'opérateur Bouygues Telecom annonce que son réseau permet désormais de couvrir 
+                                95 % de la population en très haut débit mobile, la 4G. Mais sur la couverture du 
+                                territoire, il reste muet.<br>
+                                Le taux de couverture de la population que donnent régulièrement les opérateurs 
+                                de téléphonie mobile est-il un indicateur encore pertinent ? C’est une question qui 
+                                se pose désormais, alors que les quatre principaux acteurs du marché des télécoms en 
+                                France présentent des statistiques non seulement très élevées — 
+                                la grande majorité de la population est donc couverte — mais en plus, similaires.
+                            </p>
+                            <a href="articles/tech/Art1/techart1.html">
+                                <span>Pour en savoir plus...</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <aside class="tesacoté">
+                    <a href="articles/tech/Art2/techart2.html">
+                        <h4>Comment une app de course à pied pourrait trahir l’emplacement de
+                        bases militaires secrètes
+                        </h4>
+                    </a>
+                </aside>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+            <div class="partener">
+                <ul>
+                    <p>Nos partenaires</p>
+                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZjOq0mp_0AhWBzYUKHYdVB1oQFnoECE8QAQ&url=https%3A%2F%2Fwww.nasa.gov%2F&usg=AOvVaw3NO_aot8LvFMKYKfoB6ey2" rel="nofollow">La NASA</a></li>
+                    <li><a href="www.facebook.fr" rel="nofollow">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <ul>
+                    <p>Contact</p>
+                    <li><a href="mailto:mlp.dwwb@gmail.com" rel="nofollow">Marie-Laure</a></li>
+                    <li><a href="www.facebook.fr" rel="nofollow">Facebook</a></li>
+                </ul>
+            </div>
+    </footer>
+    <!-- <script src="JS/jquery-3.6.0.js"></script>
+    <script>
+        jQuery(document).ready(function($){
+
+$("#open").click(function(){
+    $("header nav").addClass("open");
+});
+
+$("#close").click(function(){
+    $("header nav").removeClass("open");
+});
+});
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
